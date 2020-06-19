@@ -15,3 +15,7 @@ $ ruby age.rb
 >> What is your age in years?
 35
 You are 420 months old.
+
+# 3 Write a program that asks the user whether they want the program to print "something", then print it if the user enters y. Otherwise, print nothing.
+
+something.rb
