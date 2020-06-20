@@ -37,3 +37,20 @@ lsprint.rb
 password.rb
 
 # 7 In the previous exercise, you wrote a program to solicit a password. In this exercise, you should modify the program so it also requires a user name. The program should solicit both the user name and the password, then validate both, and issue a generic error message if one or both are incorrect; the error message should not tell the user which item is incorrect.
+
+password.rb
+
+# 8 Write a program that obtains two Integers from the user, then prints the results of dividing the first by the second. The second number must not be 0, and both numbers should be validated using this method:
+
+def valid_number?(number_string)
+  number_string.to_i.to_s == number_string
+end
+
+# This method returns true if the input string can be converted to an Integer and back to a string without loss of information, false otherwise. It's not a perfect solution in that some inputs that are otherwise valid (such as 003) will fail, but it is sufficient for this exercise.
+
+division.rb
+
+# 9 Modify "lsprint.rb" program so it repeats itself after each input/print iteration, asking for a new number each time through. The program should keep running until the user enters q or Q.
+
+lsprint2.rb
+
